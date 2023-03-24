@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.palindrome-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.palindrome-wrapper input,
+button {
+  padding: 9px;
+  margin-bottom: 9px;
+}
+.text-output {
+  border-radius: 9px;
+  padding: 9px;
+  gap: 9px;
+}
+.text-main {
+  padding-top: 9px;
+}
+.middle-char-div {
+  text-align: center;
+}
